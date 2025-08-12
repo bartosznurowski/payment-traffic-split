@@ -5,7 +5,7 @@ namespace App\Service;
 use App\Entity\Payment;
 use App\Service\Gateway\PaymentGatewayInterface;
 
-class TrafficSplit
+class TrafficSplit implements TrafficSplitInterface
 {
 
     private array $gateways = [];
